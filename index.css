@@ -1,3 +1,10 @@
+#header {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background: white;
+}
+
 ul {
   margin: 20px 0 0 0;
   padding-left: 25px;
