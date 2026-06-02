@@ -147,7 +147,7 @@ li {
 }
 
 .u-section-1 .u-image-1 {
-  height: 658px;
+  height: auto;
   margin: 0 auto 0 0;
 }
 
@@ -1043,9 +1043,8 @@ li {
 }
 
 .u-section-5 .u-image-1 {
-  width: 109px;
-  height: 109px;
-  background-image: url("images/e.jpg");
+  width: auto;
+  height: auto;
   background-position: 50% 50%;
   margin: 30px 163px 0 0;
 }
