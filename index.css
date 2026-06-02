@@ -1,24 +1,37 @@
 #header {
-    position: sticky;
-    top: 0;
-    z-index: 9999;
-    background: white;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  background: white;
 }
 
-.acerca-container{
-    display:flex;
-    align-items:center;
-    width:100%;
+
+.u-list-item .u-btn {
+  display: block;
+  width: 100%;
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+
 }
 
-.acerca-container .u-list-1{
-    flex:1;
+.acerca-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
 
-.acerca-container .u-group-1{
-    margin-left:auto;
-    width:150px;
-    min-width:150px;
+.acerca-container .u-list-1 {
+  flex: 1;
+}
+
+.acerca-container .u-group-1 {
+  margin-left: auto;
+  width: 150px;
+  min-width: 150px;
 }
 
 
@@ -380,7 +393,7 @@ li {
 }
 
 .u-section-2 .u-repeater-1 {
-  grid-template-columns: 1fr, 5fr,1fr;
+  grid-template-columns: 1fr, 5fr, 1fr;
   gap: 30px;
 }
 
@@ -402,13 +415,27 @@ li {
   padding-bottom: 20px;
 }
 
+.u-list-item .u-btn {
+  border: none !important;
+}
+
 
 .u-section-3 {
   background-image: none;
 }
 
+.u-list-item .u-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  border: none !important;
+}
+
 .u-section-3 .u-sheet-1 {
-  min-height: 500px;
+  min-height: auto;
+  height: auto;
+  padding-bottom: 50px;
 }
 
 .u-section-3 .u-text-1 {
@@ -457,6 +484,8 @@ li {
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 
 .u-section-3 .u-container-layout-1 {
@@ -497,6 +526,8 @@ li {
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 
 .u-section-3 .u-container-layout-2 {
@@ -538,6 +569,8 @@ li {
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 
 .u-section-3 .u-container-layout-3 {
@@ -563,6 +596,7 @@ li {
   margin: 31px 0 0;
 }
 
+
 .u-section-3 .u-btn-3 {
   font-size: 0.875rem;
   background-image: none;
@@ -579,6 +613,8 @@ li {
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 
 .u-section-3 .u-container-layout-4 {
